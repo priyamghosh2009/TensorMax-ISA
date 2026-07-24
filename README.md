@@ -474,6 +474,8 @@ A future repository may follow a modular structure similar to:
 ```text
 tensor-max/
 ├── README.md
+├──icon/
+|  ├──tensormax.png  
 ├── docs/
 │   ├── isa/
 │   ├── architecture/
@@ -495,6 +497,7 @@ tensor-max/
 ├── tests/
 ├── benchmarks/
 └── examples/
+
 ```
 
 The repository structure is expected to evolve alongside the architecture.
