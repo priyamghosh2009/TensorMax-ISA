@@ -132,6 +132,7 @@ Tensor MAX instructions are grouped into:
 | Mathematics | `TSIN`, `TASIN`, `TCOS`, `TACOS`, `TTAN`, `TATAN`, `TCOT`, `TACOT`, `TSEC`, `TASEC`, `TCOSEC`,`TACOSEC`  |
 | Data Types | `TDTYPE` |
 | Timing | `TCLOCK` |
+| Tensor Memory | `TMEMCPY` | 
 
 ---
 
