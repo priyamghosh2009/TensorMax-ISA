@@ -672,6 +672,18 @@ Future versions may define:
 - Custom AI formats
 
 ---
+# 12. Tensor Memory Instructions
+
+## 12.1 `TMEMCPY`
+### Synatx
+```text
+TMEMCPY T0 T1
+```
+### Description
+Moves the Tensor from location T0 to T1 location.
+
+$\ T1 \leftarrow T0 \ $
+$\ T0 \leftarrow \varnothing \ $
 
 # 12. Instruction Summary
 
