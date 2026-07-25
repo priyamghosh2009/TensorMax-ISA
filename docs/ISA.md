@@ -686,7 +686,7 @@ Moves the Tensor from location T0 to T1 location.
 $\ T1 \leftarrow T0 \ $
 $\ T0 \leftarrow \varnothing \ $
 
-# 12. Instruction Summary
+# 13. Instruction Summary
 
 ```text
 TCREATE T3
@@ -713,13 +713,14 @@ TATAN T1
 TCOT T1
 
 TDTYPE T1,INT64
+TMEMCPY T1 T2
 
-TCLOCK T1
+TCLOCK T3
 ```
 
 ---
 
-# 13. Example Program
+# 14. Example Program
 
 ```text
 TCREATE T1
@@ -748,7 +749,7 @@ TCLOCK T1
 
 ---
 
-# 14. Future ISA Work
+# 15. Future ISA Work
 
 The following areas remain under development:
 
@@ -778,7 +779,7 @@ The following areas remain under development:
 
 ---
 
-# 15. Specification Status
+# 16. Specification Status
 
 This document represents the **current experimental Tensor MAX ISA definition**.
 
@@ -788,7 +789,7 @@ The architecture is expected to evolve as Tensor MAX research progresses.
 
 ---
 
-# 16. Author
+# 17. Author
 
 **Priyam Ghosh**
 
